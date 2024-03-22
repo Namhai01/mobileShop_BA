@@ -1,7 +1,7 @@
 // database.js
 const mongoose = require("mongoose");
 const config = require("config");
-const DB_URI = config.get("DB").MONGODB_URL_DEV;
+const DB_URI = config.get("DB").MONGODB_URL;
 
 mongoose.connect(DB_URI);
 const db = mongoose.connection;

@@ -7,9 +7,7 @@ module.exports = {
     // FE_URL: "http://localhost:5173",
   },
   DB: {
-    MONGODB_URL:
-      "mongodb+srv://namhai:300720@cluster0.jrzoquf.mongodb.net/VietPro",
-    MONGODB_URL_DEV: "mongodb://localhost:27017/vp_shop_project",
+    MONGODB_URL: "mongodb://localhost:27017/vp_shop_project",
   },
   NODE_ENV: "development",
 };
