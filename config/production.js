@@ -11,5 +11,5 @@ module.exports = {
       "mongodb+srv://namhai:300720@cluster0.jrzoquf.mongodb.net/VietPro",
     MONGODB_URL_DEV: "mongodb://localhost:27017/vp_shop_project",
   },
-  NODE_ENV: "development",
+  NODE_ENV: "production",
 };

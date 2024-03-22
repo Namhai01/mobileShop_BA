@@ -1,14 +1,13 @@
 const express = require("express");
-const AuthController = require("../apps/controllers/Auth");
 const ProductController = require("../apps/controllers/Products");
 const CommentController = require("../apps/controllers/Comment");
 const CategoryController = require("../apps/controllers/Category");
-const AuthMiddleware = require("../apps/middlewares/Auth");
+// const AuthMiddleware = require("../apps/middlewares/Auth");
 const UploadMiddleware = require("../apps/middlewares/Upload");
 const router = express.Router();
 
 // Auth
-router.get("/admin/login", AuthMiddleware.checkLogin, AuthController.login);
+// router.get("/admin/login", AuthMiddleware.checkLogin, AuthController.login);
 
 // Product GET request
 router.get("/api/products", ProductController.getProducts);
